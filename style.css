@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Arial,  sans-serif;
+    box-sizing: border-box;
+}
+.body{
+    background: white;
+}
+.topbar{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    width: 50px;
+    margin-right: 10px;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    margin-right: 70px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.hero{
+    height: 500px;
+    width:100%;
+    background-image: url("scroll1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.hero pre{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    margin: 27rem 51rem 0 0;
+}
+.departments h1{
+    font-size: 20px;
+    padding:20px;
+
+}
+.cards{
+    display:flex;
+    background: black;
+    justify-content: space-around;
+
+}
+.card{
+    width:220px;
+    text-align: center;
+    background: white;
+    color: black;
+    padding: 20px;
+    margin: 15px;
+}
+footer{
+    background:darkblue;
+    color: white;
+   
+    padding: 15px;
+}
